@@ -107,6 +107,7 @@ QTreeView:item {
 }
 QTreeView:item:selected {
   background-color: #094771;
+  color: #ddd;
 }
 QLineEdit {
   /* Single line edit */
@@ -180,6 +181,7 @@ QTableView:item {
 QTableView:item:selected {
   border: none !important;
   background-color: #094771;
+  color: #ddd;
 }
 QTableView:section:item {
   background: #1e1e1e !important;
@@ -210,6 +212,7 @@ QListView:item {
 }
 QListView:item:selected {
   background-color: #094771;
+  color: #ddd;
 }
 QCheckBox {
   background-color: #D4D4D4;
