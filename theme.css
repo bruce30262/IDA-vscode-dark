@@ -602,18 +602,20 @@ navigator_t {
 }
 
 /* For IDAPython/IDC Syntax highlighting */
-TextEdit {
+text_area_t {
     qproperty-keyword1-fg: #55AAFF;
     qproperty-keyword2-fg: #AA00FF;
     qproperty-string-fg: #E47251;
+    qproperty-comment-fg: #5AC35A;
+    qproperty-number-fg: #c586c0;
     qproperty-preprocessor-fg: springgreen;
 }
 
-TextEdit QWidget {
+text_area_t QWidget {
     background-color: transparent;
 }
 
-TextEdit text_edit_margin_widget_t {
+text_area_t text_edit_margin_widget_t {
     color: lightgrey;
     qproperty-header-color: gainsboro;
 }
