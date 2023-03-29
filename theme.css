@@ -536,6 +536,7 @@ CustomIDAMemo
     qproperty-line-bg-bpt-enabled: #e51400;
     qproperty-line-bg-bpt-disabled: #019b10;
     qproperty-line-bg-bpt-unavailable: #ff8000;
+    qproperty-caret: white;
 }
 
 TCpuRegs
