@@ -621,7 +621,12 @@ text_area_t text_edit_margin_widget_t {
     qproperty-header-color: gainsboro;
 }
 
-TChooser
+chooser_widget_t[os-dark-theme="true"],
+standalone_dirtree_widget_t[os-dark-theme="true"]
 {
-    qproperty-highlight-bg-default: #008000;
+    qproperty-highlight-bg-default: green;
+    qproperty-highlight-bg-selected: pink;
+
+    qproperty-cut-text-color-default : darkgrey;
+    qproperty-cut-text-color-selected : grey;
 }
