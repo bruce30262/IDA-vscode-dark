@@ -610,6 +610,7 @@ text_area_t {
     qproperty-comment-fg: #5AC35A;
     qproperty-number-fg: #c586c0;
     qproperty-preprocessor-fg: springgreen;
+    qproperty-user1-fg: #F6D32D;
 }
 
 text_area_t QWidget {
